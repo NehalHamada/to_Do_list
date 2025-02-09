@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="CSS/Login.css" />
+    <!-- Rendet All Elements Normally -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+  </head>
+  <body>
+    <form class="container">
+      <h1 class="login-title">Login</h1>
+      <section class="input-box">
+        <input type="text" name="username" placeholder="Username" required />
+        <i class="fa-solid fa-user"></i>
+      </section>
+      <section class="input-box">
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <i class="fa-solid fa-lock"></i>
+      </section>
+      <section class="remember-forgot-box">
+        <div class="remember-me">
+          <input type="checkbox" name="remember-me" id="remember-me" />
+          <label for="remember-me">
+            <h5>Remember Me</h5>
+          </label>
+        </div>
+        <a href="#" class="forgot-password">
+          <h5>Forgot Password</h5>
+        </a>
+      </section>
+      <button type="submit" class="login-button">Login</button>
+      <h5 class="dont-have-an-account">
+        Don't have an account
+        <a href="regist.html" target="_blank">
+          <b>Register</b>
+        </a>
+      </h5>
+    </form>
+    <script src="JS/login.js"></script>
+  </body>
+</html>

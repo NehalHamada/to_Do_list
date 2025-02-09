@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regist Page</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="CSS/regist.css" />
+    <!-- Rendet All Elements Normally -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+  </head>
+  <body>
+    <form action="">
+      <fieldset class="container">
+        <legend>Regist Form</legend>
+        <!-- First Name -->
+        <section>
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" placeholder="Fisrtname" id="fname" />
+        </section>
+        <!-- last Name -->
+        <section>
+          <label for="lname">Second Name</label>
+          <input type="text" name="lname" placeholder="Lastname" id="lname" />
+        </section>
+        <!-- Email -->
+        <section>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+        </section>
+        <!-- Password -->
+        <section>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+          />
+        </section>
+        <!-- Confirm Password -->
+        <section>
+          <label for="cpassword">Confirm Password</label>
+          <input
+            type="password"
+            name="cpassword"
+            id="cpassword"
+            placeholder="Confirm Password"
+          />
+        </section>
+        <!-- Button create account -->
+        <section>
+          <input class="submit-box" type="submit" value="Create Account" />
+        </section>
+      </fieldset>
+    </form>
+    <script src="JS/regist.js"></script>
+  </body>
+</html>

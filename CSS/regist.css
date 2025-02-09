@@ -1,0 +1,78 @@
+/* Start Variables */
+/* End Variables */
+/* Start Global Rules */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/regist.webp");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  background-color: rgb(0 0 0 /0.1);
+  width: 300px;
+  padding: 24px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+  border: solid 5px rgb(255 255 255 / 0.1);
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 0px 30px 20px rgb(0 0 0 / 0.1);
+  display: flex;
+  flex-direction: column;
+}
+section {
+  margin-bottom: 16px;
+}
+section label {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+section #fname,
+section #lname,
+section #email,
+section #password,
+section #cpassword {
+  width: 100%;
+  padding: 10px 16px;
+  margin-bottom: 8px;
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  -ms-border-radius: 99px;
+  -o-border-radius: 99px;
+  border-radius: 99px;
+  border: solid 3px transparent;
+  background: rgb(255 255 255 / 0.1);
+  outline: none;
+}
+section .submit-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  border: solid 3px transparent;
+  background: rgb(234 255 265 / 0.3);
+  padding: 7px;
+}
+section .submit-box:hover {
+  color: rebeccapurple;
+}
+/* End Global Rules */
