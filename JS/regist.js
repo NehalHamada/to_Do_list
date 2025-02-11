@@ -43,3 +43,5 @@ document.getElementById("password").addEventListener("focus", function () {
 document.getElementById("cpassword").addEventListener("focus", function () {
   this.type = "password";
 });
+document.getElementById("password").style.webkitTextSecurity = "disc";
+document.getElementById("cpassword").style.webkitTextSecurity = "disc";
