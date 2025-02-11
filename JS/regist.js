@@ -9,12 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
     let email = document.getElementById("email").value.trim();
     let password = document.getElementById("password").value.trim();
     let confirmPassword = document.getElementById("cpassword").value.trim();
-
     if (!fname && !lname && !email && !password && !confirmPassword) {
       alert("Please fill out all fields");
       return;
     }
-
     if (password.length < 8 && confirmPassword.length < 8) {
       alert("Password must contains at least 8 characters");
       return;
@@ -23,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("Passwords do not match");
       return;
     }
-
     let user = {
       firstName: fname,
       lastName: lname,
@@ -40,3 +37,9 @@ document
     event.preventDefault();
     this.click();
   });
+document.getElementById("password").addEventListener("focus", function () {
+  this.type = "password";
+});
+document.getElementById("cpassword").addEventListener("focus", function () {
+  this.type = "password";
+});

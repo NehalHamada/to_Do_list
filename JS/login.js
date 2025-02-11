@@ -18,3 +18,4 @@ document
     event.preventDefault();
     this.click();
   });
+  
